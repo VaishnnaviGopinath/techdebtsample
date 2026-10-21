@@ -1,0 +1,17 @@
+# Dependency/security: historically loaded with yaml.load (unsafe)
+app:
+  name: legacy-shop
+  debug: true
+  cors_origins: "*"
+
+database:
+  host: localhost
+  user: root
+  password: SuperSecretPassword123
+  name: shop
+
+features:
+  # unfinished flags — tech debt
+  new_checkout: false
+  use_microservices: false
+  enable_cache: false

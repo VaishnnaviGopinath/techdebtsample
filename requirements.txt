@@ -1,0 +1,19 @@
+# Intentionally outdated / risky pins for dependency-risk detection
+Flask==1.1.2
+Jinja2==2.11.3
+Werkzeug==1.0.1
+requests==2.22.0
+Pillow==6.2.0
+PyYAML==5.1
+urllib3==1.25.8
+itsdangerous==1.1.0
+click==7.1.2
+# Unused leftover from abandoned rewrite — dependency debt
+django==2.2.28
+# No upper bounds / abandoned style
+mysqlclient==1.4.6
+redis==3.5.3
+celery==4.4.7
+python-jwt==3.3.0
+cryptography==3.2
+# Missing modern tooling: no ruff/mypy/pytest declared
